@@ -1,0 +1,128 @@
+{
+  "steps" : [ {
+    "projectUpgrades" : [ {
+      "projectFrom" : "java",
+      "versionFrom" : "8",
+      "bulkUpgrades" : [ ],
+      "upgradeTo" : {
+        "projectFrom" : "java",
+        "versionFrom" : "11",
+        "bulkUpgrades" : [ ]
+      }
+    } ]
+  }, {
+    "projectUpgrades" : [ {
+      "projectFrom" : "java",
+      "versionFrom" : "11",
+      "bulkUpgrades" : [ ],
+      "upgradeTo" : {
+        "projectFrom" : "java",
+        "versionFrom" : "17",
+        "bulkUpgrades" : [ ]
+      }
+    } ]
+  }, {
+    "projectUpgrades" : [ {
+      "projectFrom" : "spring-cloud-release",
+      "versionFrom" : "2021.0.x",
+      "bulkUpgrades" : [ ],
+      "upgradeTo" : {
+        "projectFrom" : "spring-cloud-release",
+        "versionFrom" : "2022.0.x",
+        "bulkUpgrades" : [ ]
+      }
+    } ]
+  }, {
+    "projectUpgrades" : [ {
+      "projectFrom" : "spring-cloud-release",
+      "versionFrom" : "2022.0.x",
+      "bulkUpgrades" : [ ],
+      "upgradeTo" : {
+        "projectFrom" : "spring-cloud-release",
+        "versionFrom" : "2023.0.x",
+        "bulkUpgrades" : [ ]
+      }
+    } ]
+  }, {
+    "projectUpgrades" : [ {
+      "projectFrom" : "spring-cloud-release",
+      "versionFrom" : "2023.0.x",
+      "bulkUpgrades" : [ ],
+      "upgradeTo" : {
+        "projectFrom" : "spring-cloud-release",
+        "versionFrom" : "2024.0.x",
+        "bulkUpgrades" : [ ]
+      }
+    } ]
+  }, {
+    "projectUpgrades" : [ {
+      "projectFrom" : "spring-cloud-release",
+      "versionFrom" : "2024.0.x",
+      "bulkUpgrades" : [ ],
+      "upgradeTo" : {
+        "projectFrom" : "spring-cloud-release",
+        "versionFrom" : "2025.0.x",
+        "bulkUpgrades" : [ ]
+      }
+    } ]
+  }, {
+    "projectUpgrades" : [ {
+      "projectFrom" : "spring-cloud-release",
+      "versionFrom" : "2025.0.x",
+      "bulkUpgrades" : [ ],
+      "upgradeTo" : {
+        "projectFrom" : "spring-cloud-release",
+        "versionFrom" : "2025.1.x",
+        "bulkUpgrades" : [ ]
+      }
+    } ]
+  } ],
+  "projects" : [ {
+    "currentProject" : "spring-cloud-release",
+    "currentVersion" : "2021.0.x",
+    "upgradedProject" : "spring-cloud-release",
+    "upgradedVersion" : "2025.1.x"
+  }, {
+    "currentProject" : "java",
+    "currentVersion" : "8",
+    "upgradedProject" : "java",
+    "upgradedVersion" : "17"
+  } ],
+  "excludedProjects" : [ {
+    "project" : "com.wavefront:wavefront-sdk-java",
+    "exclusion" : {
+      "jackson-annotations" : [ "jackson", "spring-boot", "micrometer", "wavefront-spring-boot", "spring-cloud-commons", "spring-cloud-sleuth", "spring-framework", "junit", "mockito", "xmlunit", "junit-platform", "spring-security" ],
+      "jackson" : [ "spring-boot", "micrometer", "wavefront-spring-boot", "spring-cloud-commons", "spring-cloud-sleuth", "spring-framework", "junit", "mockito", "xmlunit", "junit-platform", "spring-security" ]
+    }
+  }, {
+    "project" : "com.wavefront:wavefront-opentracing-sdk-java",
+    "exclusion" : {
+      "jackson-annotations" : [ "jackson", "spring-boot", "micrometer", "wavefront-spring-boot", "spring-cloud-commons", "spring-cloud-sleuth", "spring-framework", "junit", "mockito", "xmlunit", "junit-platform", "spring-security" ],
+      "jackson" : [ "spring-boot", "micrometer", "wavefront-spring-boot", "spring-cloud-commons", "spring-cloud-sleuth", "spring-framework", "junit", "mockito", "xmlunit", "junit-platform", "spring-security" ]
+    }
+  }, {
+    "project" : "com.wavefront:wavefront-internal-reporter-java",
+    "exclusion" : {
+      "jackson-annotations" : [ "jackson", "spring-boot", "micrometer", "wavefront-spring-boot", "spring-cloud-commons", "spring-cloud-sleuth", "spring-framework", "junit", "mockito", "xmlunit", "junit-platform", "spring-security" ],
+      "jackson" : [ "spring-boot", "micrometer", "wavefront-spring-boot", "spring-cloud-commons", "spring-cloud-sleuth", "spring-framework", "junit", "mockito", "xmlunit", "junit-platform", "spring-security" ]
+    }
+  }, {
+    "project" : "com.wavefront:wavefront-runtime-sdk-jvm",
+    "exclusion" : {
+      "jackson-annotations" : [ "jackson", "spring-boot", "micrometer", "wavefront-spring-boot", "spring-cloud-commons", "spring-cloud-sleuth", "spring-framework", "junit", "mockito", "xmlunit", "junit-platform", "spring-security" ],
+      "jackson" : [ "spring-boot", "micrometer", "wavefront-spring-boot", "spring-cloud-commons", "spring-cloud-sleuth", "spring-framework", "junit", "mockito", "xmlunit", "junit-platform", "spring-security" ]
+    }
+  } ],
+  "blockedUpgrades" : [ ],
+  "executionMetadata" : {
+    "exitCode" : 10,
+    "status" : "BLOCKED"
+  },
+  "scmMetadata" : {
+    "repositoryUrl" : "https://github.com/VT-E2E/saa-gitwise.git",
+    "repositoryName" : "VT-E2E/saa-gitwise",
+    "branch" : "main",
+    "commitId" : "de7a60afb6998a7650f965fdefd76e2fc446472d",
+    "commitDate" : "2026-10-28T07:12:27Z"
+  }
+}

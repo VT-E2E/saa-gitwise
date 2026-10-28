@@ -14,6 +14,7 @@
 	<name>spring-sample-app</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
+		<java.version>11</java.version>
 		<spring-boot.version>2.7.8</spring-boot.version>
 		<spring-cloud.version>2021.0.8</spring-cloud.version>
 		<wavefront.version>2.3.2</wavefront.version>
