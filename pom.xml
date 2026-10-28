@@ -92,7 +92,6 @@
                 </executions>
                 <configuration>
                     <outputFormat>json</outputFormat>
-                    <outputName>classes/bom</outputName>
                 </configuration>
             </plugin>
             <plugin>
